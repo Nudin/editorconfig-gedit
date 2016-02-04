@@ -1,6 +1,6 @@
 # EditorConfig Gedit Plugin
 
-This is an [EditorConfig][] plugin for [gedit][].
+This is an [EditorConfig][] plugin for [gedit][] and [pluma][].
 
 ## Downloading Gedit Plugin
 
@@ -38,6 +38,10 @@ To install the gedit 2 plugin manually, execute the following copy command:
 
     cp -Lr editorconfig.gedit-plugin editorconfig_gedit2.py editorconfig_plugin ~/.gnome2/gedit/plugins/
 
+To install the pluma plugin manually, execute the following copy command:
+
+    cp -Lr editorconfig.pluma-plugin editorconfig_pluma.py editorconfig_plugin ~/.local/share/pluma/plugins/
+
 ## Supported properties
 
 The EditorConfig Gedit plugin fully supports the following EditorConfig
@@ -61,6 +65,7 @@ property is ignored and tabs are always set to the width of `indent_size`.
 
 [EditorConfig]: http://editorconfig.org
 [gedit]: http://projects.gnome.org/gedit
+[pluma]: https://github.com/mate-desktop/pluma
 [properties]: http://editorconfig.org/#supported-properties
 [tags]: https://github.com/editorconfig/editorconfig-gedit/tags
 [latest]: https://github.com/editorconfig/editorconfig-gedit/archive/v0.5.1.tar.gz
